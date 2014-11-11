@@ -1,0 +1,121 @@
+This is a CSS document! It tells the HTML what to look like*/
+
+
+/* the . tells CSS that this element is a class!
+ I won't go in detail on what these settings are because you
+  can find them here: 
+  http://www.lesliefranke.com/files/reference/csscheatsheet.html 
+*/
+.title{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.test{
+background-color: yellow;
+display: block;
+
+}
+
+/* The # tells us that header is an ID! You should only have 1 unique id for this name */ 
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
+}
+
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+.left{
+	width:49%;
+	height: 500px;
+	float: left;
+	background-color: #F4EBC3;
+}
+
+.right{
+	width:49%;
+	height: 500px;
+	float: right;
+	background-color: #B9D7D9;
+}
+
+/*You can also just use html tags as selectors, as seen here. 
+HTML selectors are the things between the <> in the html document*/
+ul{
+	display: block;
+	margin: auto;
+}
+
+#floppy{
+	width: 200px;
+	height: auto;
+
+}
+
+.right img{
+	width: 180px;
+	height: 200px;
+
+}
+li{
+	
+	display: inline-block;
+	margin: auto;
+	
+}
+.boxes{
+	width: 100%;
+	height: 50px;
+}
+.boxes div{
+	display: inline-block;
+	
+}
+
+#boop{
+	display: block;
+	margin: auto;
+}
+.footer{
+	width:100%;
+	height: 50px;
+	background-color: black;
+	display: block;
+	clear: both;
+	
+}
+
+.footer p{
+
+	color: white;
+	text-align: center;
+}
+
+
+/*uncomment this following section if you'd like to see how the element boxes are spaced!*/
+
+/**{
+ border: 1px dashed #0000FF;   
+}

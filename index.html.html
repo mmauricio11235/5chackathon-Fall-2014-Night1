@@ -1,0 +1,65 @@
+<!-- This is a comment!-->
+
+<!DOCTYPE html> 
+<html> 
+	<!-- Remember that the head contains information about this html document! --> 
+	<head> 
+
+		<!-- This just gives the page a title. Look at the tab on your browser! --> 
+		<title> HackWeek |Fall 2014 </title> 
+
+		<!--This is what tells this html document where it's getting it's styling from! It's stylesheet.css --> 
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+	</head> 
+
+	<!-- The body contains everything that is going to be visible on the page --> 
+	<body> 
+		
+		<!-- Here, we see how divs (short for divisions) are used to section up the document. We then place stuff inside the divs to make it look nice! -->
+		<!-- You can see the divs more clearly in the webpage. They have different colored backgrounds-->  
+		<div id="header">
+			<p id="name">Your Name Here</p>
+			<a href="http://mail.google.com"><p id="email">you@yourdomain.com</p></a>
+		</div>
+
+
+		<div class = "title"> 
+			<h1 class ="title">Website on my Favorite Animals!<h1>
+		</div> 
+
+		<div class = "left">
+
+			<!-- This is a link, our first example of attributes. the <a> tag has a href attribute that points to a website the user goes to when they click on the link
+			in this case, clicking on the link will take people to pictures of puppies. --> 
+			<a id = "floppy" href = "https://www.google.com/search?q=puppy+pictures&es_sm=122&tbm=isch&tbo=u&source=univ&sa=X&ei=REJgVIDUJ6r-iAL3nICYDg&ved=0CB8QsAQ&biw=1242&bih=643"> <img src = "http://i.imgur.com/navtBOU.gif"/></a>
+
+			<!-- This is an h1 tag, which is a header. Generally used to title sections. You can also see an example of in line styling as the attribute where we put 
+			css right in the html. In this case, we tell the header to move to the right, and to limit it's width to 50% of the container it's in (the div)--> 
+			<h1 style = "float: right; width: 50%"> This doggy has floppy ears :) his name is reginald</p>
+				<h2> Bio</h2>
+
+				<!--This is a paragraph. Just add texts between the open and close p tags! --> 
+				<p> Here are some things about puppies that i think everyone should know </p>  
+		</div>
+
+		<div class = "right"> 
+		
+		<!-- This is an UNORDERED list (ul) an ORDERED List (ol) will have numbers. You don't see the bullet points because of inline styling added in the CSS! -->
+		<ul> 
+			<!-- All lists have LIST ITEMS (<li>) that make up the list -->
+			<!-- You also see images. Like links, it has a special attribute called src, which tells the browser where to get the image! -->
+			<li> <img src="http://practicewebsiteforkitties.weebly.com/uploads/2/9/6/7/29675855/7722813_orig.jpg"></li>
+			<li><img src = "http://hdwallpaper.freehdw.com/0008/animals_widewallpaper_blue-eyed-kitties_70868.jpg" style = "height: 200px;"></li>
+			<li>  <img src = "http://imgs.sfgate.com/blogs/images/sfgate/pets/2011/09/08/hang_in_there_kitty-thumb-250x332.jpg"> </li>
+		</ul>
+
+		 <h1 style = "width:100%;text-align: center;"> Kitties! </h1>
+		 <img src = "http://storage.coolfeed.co/2012/10/Funny-Cat-Images-24-GIFs-coolfeed.co-4.gif" id = "boop"/> 
+	</div>
+		<div class = "footer">
+			<p>Hackweek | Fall 2014</p> 
+			<p>We the best</p>
+		</div> 
+	</body> 
+</html> 
+<!-- Always remember that most tags are like parenthesis. If you open one, you have to close it later and they have to be balanced!  -->
